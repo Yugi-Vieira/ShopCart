@@ -6,6 +6,17 @@ body{
     background-color: rgb(204, 199, 199);
 }
 
+.close {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+  }
+  
+  .close:before {
+    content: "\00D7"; 
+  }
+
 @media(max-width:991px){
     #heading{
         padding-left: 50px;
